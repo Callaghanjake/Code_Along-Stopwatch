@@ -46,4 +46,5 @@ function resetClock () {
 
 resetBtn.addEventListener('click', () => {
     resetClock();
+    setTime();
 });
